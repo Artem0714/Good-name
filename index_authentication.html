@@ -2,35 +2,44 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title><!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Authentication</title>
+        <title>Авторизация</title>
+        <link rel="stylesheet" href="index1.css">
     </head>
     <body>
-        <h1><strong>Форма авторизации</strong></h1>
-        
-        <a href="index_main.html">
-            <h2>Главная</h2>
-        </a>
+        <div class="had">     
+            <div class="gl">
+                <a href="index_main.html">Главная</a>
+            </div>    
 
-        <a href="index1.html">
-            <h2>Форма регистрации</h2>
-        </a>
+            <div class="vk">    
+                <a href="index_authentication.html" class="vk">Войти</a>
+                <a href="index_contacts.html" class="vk">Контакты</a>
+            </div>
+        </div>
+
+        <div class="heading">
+            <p>Войдите или создайте аккаунт</p>
+        </div>
         
-        <form action="record.txt" method="get" >
-            <label for="e-mail">Электронная почта:</label>
+        <form class="form" action="authentication.txt" method="get" >
+            <div class="posit">
+                <label for="e-mail">Электронная почта:</label>
+            </div>
+
             <input type="email" id="e-mail" placeholder="Введите e-mail">
-            
-            <br>
+                
+            <div class="posit">
+                <label for="password1">Пароль:</label>
+            </div>
 
-            <label for="password1">Пароль:</label>
             <input type="password" id="password1" placeholder="Введите пароль">
-            
-            <br>
-
-            <input type="submit" value="Авторизоваться">
+                
+            <input class="btn" type="submit" value="Авторизоваться">
         </form>
+
+        <div class="ssl">
+            <a target="_blanck" href="index1.html">Зарегистрироваться
+            </a>
+        </div>
     </body>
 </html>

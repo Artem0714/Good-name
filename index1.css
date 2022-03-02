@@ -47,6 +47,26 @@ a {
 .vk {
     text-align: right;
 }
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.posit {
+    width: 350px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.posit label {
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    font-weight: 600;
+}
+
 .form input:not(.btn) {
     width: 350px;
     height: 30px;
@@ -61,17 +81,14 @@ a {
 .form .checkbox input {
     width: 15px;
     height: 15px;
-    margin: 10px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
     font-size: 12px;
 }
 
 .form .checkbox label {
     font-size: 14px;
-}
-
-.form label{
     font-weight: 600;
-} 
+}
 
 .btn {
     background: #003580;
@@ -81,7 +98,7 @@ a {
     width: 354px;
     height: 34px;
     font-size: 14px;
-
+    margin: 10px 0px 0px 0px;
 }
 
 .btn:hover {
@@ -91,8 +108,27 @@ a {
 .ssl {
     font-size: 14px;
     font-weight: 600;
+    margin: 14px 0px;
+}
+
+.ssl p {
+    margin: 0;
 }
 
 .ssl a {
     color: #757575;
+}
+
+.kon1 {
+    display: flex;
+}
+
+.tel, .namephone {
+    width: 50%;
+    border: 1px dashed #003580;
+    margin: 5px;
+}
+
+.namephone {
+    font-weight: 600;
 }

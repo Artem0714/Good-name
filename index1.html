@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Good-Name</title>
+        <title>Регистрация</title>
         <link rel="stylesheet" href="index1.css">
     </head>
     <body> 
@@ -21,66 +21,53 @@
             <p>Создайте аккаунт</p>
         </div>
         
-        <div class="form">
-            <form action="record.txt" method="get" >
+        <form class="form" action="record.txt" method="get" >
+            
+            <div class="posit">
                 <label for="name">Имя</label>
+            </div>
                 
-                <br>
-
-                <input type="text" id="name" placeholder="Введите имя">
+            <input type="text" id="name" placeholder="Введите имя">
                 
-                <br>
-                
+            <div class="posit">
                 <label for="lastname">Фамилия</label>
-                
-                <br>
+            </div>
 
-                <input type="text" id="lastname" placeholder="Введите фамилию">
+            <input type="text" id="lastname" placeholder="Введите фамилию">
                 
-                <br>
-
+            <div class="posit">    
                 <label for="e-mail">Электронная почта</label>
+            </div>
 
-                <br>
-
-                <input type="email" id="e-mail" placeholder="Введите e-mail">
+            <input type="email" id="e-mail" placeholder="Введите e-mail">
                 
-                <br>
-
+            <div class="posit">
                 <label for="date">Дата рождения</label>
+            </div>
 
-                <br>
-
-                <input type="date" id="date" placeholder="Введите дату рождения">
+            <input type="date" id="date" placeholder="Введите дату рождения">
                 
-                <br>
-
+            <div class="posit">
                 <label for="password1">Пароль</label>
-                
-                <br>
+            </div>
 
-                <input type="password" id="password1" placeholder="Введите пароль">
+            <input type="password" id="password1" placeholder="Введите пароль">
                 
-                <br>
-                
+            <div class="posit">
                 <label for="password2">Пароль повторно</label>
+            </div>
 
-                <br>
-
-                <input type="password" id="password2" placeholder="Введите пароль повторно">
+            <input type="password" id="password2" placeholder="Введите пароль повторно">
+            
+            <div class="checkbox">
+                <label for="">Подтвердите согласие на обработку персональных данных:</label>
+                <input type="checkbox">
+            </div>
                 
-                <br>
-                <div class="checkbox">
-                    <label for="">Подтвердите согласие на обработку персональных данных:</label>
-                    <input type="checkbox">
-                </div>    
-                <br>
+            <input class="btn" type="submit" value="Зарегистрироваться">
                 
-                <input class="btn" type="submit" value="Зарегистрироваться">
+        </form>
                 
-            </form>
-        </div>
-        
         <div class="ssl">
             <p>Все отзывы и негодования оставлять по 
                 <a target ="_blanck" href="https://t.me/evgeniyfedotov">ссылке     
