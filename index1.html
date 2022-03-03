@@ -2,65 +2,77 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Good-Name</title>
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="index1.css">
     </head>
-    <body>
-        <h1><strong>Форма регистрации</strong></h1>
-        
-        <a href="index_main.html">
-            <h2>Главная</h2>
-        </a>
-        
-        <a href="index_authentication.html">
-            <h2>Форма аутентификации</h2>
-        </a>
+    <body> 
+        <div class="had">     
+            <div class="gl">
+                <a href="index_main.html">Главная</a>
+            </div>    
 
-        <a href="index_contacts.html">
-            <h2>Контакты</h2>
-        </a>
-
-        <p><em>Запоните поля регистрирующей формы, чтобы я мог воровать ваши деньги!</em></p>
+            <div class="vk">    
+                <a href="index_authentication.html" class="vk">Войти</a>
+                <a href="index_contacts.html" class="vk">Контакты</a>
+            </div>
+        </div>
         
-        <form action="record.txt" method="get" >
-            <label for="name">Имя:</label>
+        <div class="heading">
+            <p>Создайте аккаунт</p>
+        </div>
+        
+        <form class="form" action="record.txt" method="get" >
+            
+            <div class="posit">
+                <label for="name">Имя</label>
+            </div>
+                
             <input type="text" id="name" placeholder="Введите имя">
-            
-            <br>
-            
-            <label for="lastname">Фамилия:</label>
+                
+            <div class="posit">
+                <label for="lastname">Фамилия</label>
+            </div>
+
             <input type="text" id="lastname" placeholder="Введите фамилию">
-            
-            <br>
+                
+            <div class="posit">    
+                <label for="e-mail">Электронная почта</label>
+            </div>
 
-            <label for="e-mail">Электронная почта:</label>
             <input type="email" id="e-mail" placeholder="Введите e-mail">
-            
-            <br>
+                
+            <div class="posit">
+                <label for="date">Дата рождения</label>
+            </div>
 
-            <label for="date">Дата рождения:</label>
             <input type="date" id="date" placeholder="Введите дату рождения">
-            
-            <br>
+                
+            <div class="posit">
+                <label for="password1">Пароль</label>
+            </div>
 
-            <label for="password1">Пароль:</label>
             <input type="password" id="password1" placeholder="Введите пароль">
-            
-            <br>
-            
-            <label for="password2">Пароль повторно:</label>
+                
+            <div class="posit">
+                <label for="password2">Пароль повторно</label>
+            </div>
+
             <input type="password" id="password2" placeholder="Введите пароль повторно">
             
-            <br>
-            
-            <label for="">Подтвердите согласие на обработку персональных данных:</label>
-            <input type="checkbox">
-            
-            <br>
-            
-            <input type="submit" value="Зарегестрироваться">
-            
+            <div class="checkbox">
+                <label for="">Подтвердите согласие на обработку персональных данных:</label>
+                <input type="checkbox">
+            </div>
+                
+            <input class="btn" type="submit" value="Зарегистрироваться">
+                
         </form>
-
-        <p>Все отзывы и негодования оставлять по <a target ="_blanck" href="https://t.me/evgeniyfedotov">ссылке</a></p>
+                
+        <div class="ssl">
+            <p>Все отзывы и негодования оставлять по 
+                <a target ="_blanck" href="https://t.me/evgeniyfedotov">ссылке     
+                </a>
+            </p>
+        </div>
     </body>
 </html>
