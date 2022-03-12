@@ -29,7 +29,7 @@ a {
     text-decoration: none;
 }
 
-.heading {
+.name-list {
     font-size: 22px;
     font-weight: 900;
     margin: 10px;
@@ -53,14 +53,14 @@ header div{
     margin: 0 auto;
 }
 
-.posit {
+.name-label {
     width: 350px;
     height: 20px;
     margin: 0 auto;
     position: relative;
 }
 
-.posit label {
+.name-label label {
     position: absolute;
     left: 0px;
     bottom: 2px;
@@ -105,17 +105,17 @@ header div{
     background-color: #0045a5;
 }
 
-.ssl {
+.name-link {
     font-size: 14px;
     font-weight: 600;
     margin: 14px 0px;
 }
 
-.ssl p {
+.name-link p {
     margin: 0;
 }
 
-.ssl a {
+.name-link a {
     color: #757575;
 }
 
